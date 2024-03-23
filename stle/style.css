@@ -1,0 +1,154 @@
+body {
+     background-color: hsl(30, 38%, 92%);
+     font-family: "Montserrat", sans-serif;
+}
+
+main {
+     display: flex;
+     margin: 0% auto;
+     justify-content: center;
+}
+
+.container {
+     display: flex;
+     padding-top: 5.9rem;
+     justify-content: center;
+}
+
+.card {
+     display: flex;
+
+     border-radius: 10px;
+}
+
+.perfume {
+     width: 340px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+}
+
+h1 {
+     font-family: "Fraunces", serif;
+     font-size: 32px;
+}
+h2{
+     font-family: "Fraunces", serif;
+     font-size: 32px;
+}
+.dos {
+     font-size: 0px;
+}
+
+section {
+     margin: 0% auto;
+     background-color: hsl(0, 0%, 100%);
+     width: 18rem;
+     height: 27.9rem;
+     padding: 2rem;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+
+p {
+     font-size: 17px;
+     color: hsl(228, 12%, 48%);
+}
+
+.price {
+     display: inline-flex;
+     align-items: center;
+     justify-content: space-between;
+
+     gap: 20px;
+}
+
+.p2 {
+     color: hsl(158, 36%, 37%);
+     ;
+}
+
+.under {
+     text-decoration: line-through;
+     color: hsl(228, 12%, 48%);
+}
+
+button {
+     display: inline-flex;
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+     border-radius: 5px;
+     margin-top: 1rem;
+     gap: 10px;
+     width: 18rem;
+     height: 3rem;
+     font-size: 14px;
+     font-weight: bold;
+     color: white;
+     background-color: hsl(158, 36%, 37%);
+     border-style: none;
+
+}
+
+button:hover {
+     background-color: hsl(158, 36%, 22%);
+}
+
+@media (max-width: 768px) {
+
+     /* Estilos para dispositivos móviles */
+     .container {
+          display: flex;
+          padding-top: 0.5rem;
+          justify-content: center;
+     }
+
+     .card {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     .perfume {
+          display: flex;
+          display: none;
+          justify-content: center;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 0%;
+     }
+
+     #ponte {
+          background-image: url(image-product-mobile.jpg);
+          background-size: cover;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          width: 24rem;
+          height: 16.5rem;
+          background-color: aqua;
+     }
+
+     section {
+          width: 20rem;
+          height: 25rem;
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 10px;
+     }
+
+
+
+     p {
+          font-size: 17px;
+     }
+
+     button {
+          display: inline-flex;
+          margin: auto;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+          margin-top: 0rem;
+          width: 20rem;
+          height: 3rem;
+     }
+}
